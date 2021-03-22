@@ -1,0 +1,18 @@
+// 配置路径
+{
+    "include": ["./src/**/*"],
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"], 
+        "@/components/*": ["./src/components/*"], 
+        "@/views/*": ["./src/views/*"], 
+        "@/api/*": ["./src/api/*"], 
+        "@/assets/*": ["./src/assets/*"],
+        "@/store/*": ["./src/store/*"],
+        "@/router/*": ["./src/router/*"],
+        "@/plugins/*": ["./src/plugins/*"]
+      }
+    }
+  }
