@@ -1,7 +1,7 @@
-����Ա
-npm install -g @vue/cli   (���� npm cache clean --force)
+¹ÜÀíÔ±
+npm install -g @vue/cli   (±¨´í npm cache clean --force)
 d:
-cd Ŀ¼
+cd Ä¿Â¼
 vue init webpack vue-require
 
 npm  install vue-router
@@ -15,7 +15,7 @@ npm i element-ui -S
 
 npm install vue-i18n --save
 
-npm i sass-loader
+npm i sass-loader   （报错后指定node-sass版本：npm install sass-loader@7.0.3 --save-dev）
 npm i node-sass
 
  npm install mockjs
